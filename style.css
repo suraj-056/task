@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+nav img{
+    width: 10%;
+}
+nav ul{
+    margin-top: 2.5%;
+    width: 60%;
+    display: inline-block;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2%;
+    color: white;
+    
+}
+nav ul li a{
+    color: white;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+}
+.icons i{
+    margin: 1% 4%;
+    color: whitesmoke;
+
+}
+.icons i:hover{
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    margin-top: 5%;
+}
+.image-container{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 5%;
+}
+.price-container{
+    width: 50%;
+    margin-top: 5%;
+    height: 100%;
+    float: right;
+}
+.img-holder{
+    width: 27.3rem;
+    margin-left: 10%;
+    height: 27.6rem;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.img-holder img{
+    width: 100%;
+    height: 100%;
+}
+table{
+    margin-top: 10%;
+    border-spacing: 50px;
+}
+tr{
+    padding-top: 50%;
+
+}
+.price{
+    margin-left: 10%;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.price h2{
+    margin-top: 3%;
+}
+.price p{
+    margin-top: 5%;
+}
+.quantity{
+    margin-top: 3%;
+    height: 20%;
+}
+.quantity h3{
+    margin-right: 48%;
+}
+.inputs input{
+    text-align: center;
+    border: none;
+    padding: 2%;
+}
+.quantity button{
+    padding:2% 4%;
+    border: none;
+}
+.inputs{
+    margin-top: 5%;
+    width: 50%;
+    height: 30%;
+}
+#btn{
+    width: 120%;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0071E3;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position:relative;
+      left: 30%;
+      top: 55%
+}
+table i:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1020px) {
+
+    nav img{
+        width: 20%;
+
+
+    }
+    nav ul{
+        display: none;
+
+    }
+    .icons{
+        width: 80%;
+        justify-content: flex-end;
+        align-items: center;
+      
+    }
+    main{
+        display: block;
+        width: 100%;
+    }
+    .price-container{
+        width: 100%;
+        margin: 0%;
+
+    }
+    table{
+        display: block;
+        width: 100%;
+        margin-top: -80%;
+        border-spacing: 50px;
+    }
+    .price{
+
+    }
+    .quantity{
+
+    }
+    .image-container{
+        width: 100%;
+        margin: 10% 0%;
+
+    }
+    .img-holder{
+        margin: 0%;
+        width: 100%;
+    }
+
+    
+}
